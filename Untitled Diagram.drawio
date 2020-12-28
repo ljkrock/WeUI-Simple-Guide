@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T05:25:16.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="_-asYP9QOifcydUXC95t" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-28T05:50:03.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ivlC2xdp3sUf0BSlyd3D" version="14.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,8 +9,8 @@
             <mxPoint x="220" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="微服务sy:go:newscomment&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;微服务sy:go:newscomment[&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;v1/comment/getList&lt;/span&gt;]&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="80" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DMmbzsqvoCTRYG2FOpCv-15" value="未通过" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DMmbzsqvoCTRYG2FOpCv-1" target="DMmbzsqvoCTRYG2FOpCv-22">
           <mxGeometry relative="1" as="geometry">
@@ -29,7 +29,7 @@
             <mxPoint x="220" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DMmbzsqvoCTRYG2FOpCv-4" value="获取参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="DMmbzsqvoCTRYG2FOpCv-4" value="获取参数(newsId,classId,&lt;br&gt;hotPlIds,userId,page)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DMmbzsqvoCTRYG2FOpCv-5" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DMmbzsqvoCTRYG2FOpCv-1" target="DMmbzsqvoCTRYG2FOpCv-4">
@@ -66,7 +66,7 @@
         <mxCell id="DMmbzsqvoCTRYG2FOpCv-16" value="根据根评论id获取子评论列表（db操作）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DMmbzsqvoCTRYG2FOpCv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DMmbzsqvoCTRYG2FOpCv-20" target="DMmbzsqvoCTRYG2FOpCv-22">
+        <mxCell id="DMmbzsqvoCTRYG2FOpCv-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DMmbzsqvoCTRYG2FOpCv-20" target="DMmbzsqvoCTRYG2FOpCv-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DMmbzsqvoCTRYG2FOpCv-20" value="组合最终评论列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -74,6 +74,16 @@
         </mxCell>
         <mxCell id="DMmbzsqvoCTRYG2FOpCv-22" value="返回数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DMmbzsqvoCTRYG2FOpCv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DMmbzsqvoCTRYG2FOpCv-25" target="DMmbzsqvoCTRYG2FOpCv-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DMmbzsqvoCTRYG2FOpCv-25" value="获取会员信息（sy:go:member[v1/user/infoComment]）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="585" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
