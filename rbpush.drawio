@@ -1,17 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T06:39:14.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="hr63yeu4e9TRRyp-dkG8" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T08:14:24.950Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="xm7vbyWORQ1SE97Dg0qQ" version="14.4.4" type="github">
   <diagram id="CojYsEq6J5Tc0MAuRY-2" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="euQNAumdBL3FPEThwucR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="euQNAumdBL3FPEThwucR-1" target="euQNAumdBL3FPEThwucR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="euQNAumdBL3FPEThwucR-1" value="后台推送" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="euQNAumdBL3FPEThwucR-3" target="euQNAumdBL3FPEThwucR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="euQNAumdBL3FPEThwucR-3" target="euQNAumdBL3FPEThwucR-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="260" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="euQNAumdBL3FPEThwucR-3" value="是否定时" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="240" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="euQNAumdBL3FPEThwucR-4" target="euQNAumdBL3FPEThwucR-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="340" />
+              <mxPoint x="480" y="100" />
+              <mxPoint x="920" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="euQNAumdBL3FPEThwucR-4" value="设置定时推送" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="euQNAumdBL3FPEThwucR-6" target="euQNAumdBL3FPEThwucR-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="euQNAumdBL3FPEThwucR-6" value="增加任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="170" width="120" height="60" as="geometry" />
@@ -19,11 +44,20 @@
         <mxCell id="euQNAumdBL3FPEThwucR-7" value="存入数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="290" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="euQNAumdBL3FPEThwucR-8" target="euQNAumdBL3FPEThwucR-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="euQNAumdBL3FPEThwucR-8" value="修改任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="170" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="euQNAumdBL3FPEThwucR-9" target="euQNAumdBL3FPEThwucR-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="euQNAumdBL3FPEThwucR-9" value="update数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="euQNAumdBL3FPEThwucR-10" target="euQNAumdBL3FPEThwucR-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="euQNAumdBL3FPEThwucR-10" value="删除任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1280" y="200" width="120" height="60" as="geometry" />
@@ -57,14 +91,26 @@
         <mxCell id="euQNAumdBL3FPEThwucR-17" value="访问回调地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1630" y="730" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="euQNAumdBL3FPEThwucR-19" target="euQNAumdBL3FPEThwucR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="euQNAumdBL3FPEThwucR-19" value="获取redis锁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-33" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="euQNAumdBL3FPEThwucR-21" target="euQNAumdBL3FPEThwucR-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-34" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="euQNAumdBL3FPEThwucR-21" target="euQNAumdBL3FPEThwucR-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="euQNAumdBL3FPEThwucR-21" value="db查询是否推送" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="400" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="euQNAumdBL3FPEThwucR-22" value="结束返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="euQNAumdBL3FPEThwucR-23" target="euQNAumdBL3FPEThwucR-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="euQNAumdBL3FPEThwucR-23" value="删除锁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="640" width="120" height="60" as="geometry" />
