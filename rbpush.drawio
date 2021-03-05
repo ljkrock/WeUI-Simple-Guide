@@ -1,1 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T03:12:08.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.4.4" etag="_TnPNRBxQ5pboalP_bm8" type="github"><diagram id="CojYsEq6J5Tc0MAuRY-2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-05T02:51:58.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="_tBIXn0XX6c64euKgPsO" version="14.4.4" type="github">
+  <diagram id="CojYsEq6J5Tc0MAuRY-2" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="euQNAumdBL3FPEThwucR-1" value="后台推送" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-3" value="是否定时" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-4" value="设置定时推送" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-6" value="增加任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-7" value="存入数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-8" value="修改任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-9" value="update数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-10" value="删除任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-11" value="软删数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-12" value="定时任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-13" value="从数据库获取当前需要执行的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-14" value="循环列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-15" value="根据id获取redis锁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-16" value="发送" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="euQNAumdBL3FPEThwucR-17" target="euQNAumdBL3FPEThwucR-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="770" />
+              <mxPoint x="1840" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-17" value="访问回调地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-19" value="获取redis锁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-21" value="db查询是否推送" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="400" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-22" value="结束返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-23" value="删除锁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-24" value="返回成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euQNAumdBL3FPEThwucR-25" value="直接访问推送接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
